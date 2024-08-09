@@ -1,0 +1,172 @@
+.header{
+    background-color: black;
+    height: 60px;
+    list-style-type: none;
+}
+
+#Home_button{
+    width: 130px;
+    height: 45px;
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    left:0px;
+}
+
+#amazon_logo_home{
+    align-self: center;
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 8px;
+}
+
+#Home_button:hover{
+    border: white;
+    border: 2px;
+    border-radius: 2px;
+    border-style: solid;
+}
+
+#menu_marker_zip{
+    height: 15px;
+    position: absolute;
+    left: 150px;
+    top: 25px;
+}
+
+.upper_text_zip{
+    background-color: black;
+    color: grey;
+    font-size: 12px;
+    position: absolute;
+    left: 170px;
+    top: 15px;
+}
+
+.lower_text_zip{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    left: 170px;
+    top: 30px;
+    font-weight: bold;
+    
+}
+
+#departments_list{
+    background-color: #f2f2f2;
+    color: gray;
+    position: absolute;
+    left: 465px;
+    top: 10px;
+    text-align: center;
+    width: 70px;
+    height: 40px;
+    border: transparent;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#search_bar{
+    background-color: white;
+    position:absolute;
+    left: 536px;
+    top: 10px;
+    height: 40px;
+    width: 280px;
+    border-radius: 0px;
+    border: transparent;
+}
+
+#search_button{
+    background-color: #ff9900;
+    position: absolute;
+    left: 816px;
+    top: 10px;
+    height: 40px;
+    width: 45px;
+    border: transparent;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#lupa{
+    background-color: #ff9900;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 25%;
+    left: 25%;
+}
+
+
+#login_selection{
+    background-color: black;
+    color: white;
+    border: transparent;
+    position: absolute;
+    left: 875px;
+    top: 15px;
+    height: 40px;
+    width: 120px;
+}
+
+#withdraw_requests_button{
+    text-align: center;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    border: transparent;
+    position: absolute;
+    left: 1010px;
+    top:15px;
+    height: 40px;
+    width: 70px;
+}
+
+#withdraw_requests_button:hover{
+    border: white;
+    border: 2px;
+    border-radius: 2px;
+    border-style: solid;
+}
+
+#withdraw_requests_button:visited, #withdraw_requests_button:active, #withdraw_requests_button:link{
+    text-decoration: none;
+}
+
+.cart{
+    background-color: black;
+    position: absolute;
+    left: 1100px;
+    top:15px;
+    height: 35px;
+
+}
+
+#cart_img{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+}
+
+#cart_button{
+    background-color: black;
+    color: white;
+    border: transparent;
+    text-align: center;
+    text-decoration: none;
+    padding: 9px;
+}
+
+#cart_button:hover{
+    border: white;
+    border: 2px;
+    border-radius: 2px;
+    border-style: solid;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: amazons_font;
+    src: url(/fonts/OfficinaSansStd-Bold.otf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: amazons_font;
+}

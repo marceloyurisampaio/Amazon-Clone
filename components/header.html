@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com. Spend Less. Smile More</title>
+    <link rel = "stylesheet" href="styles/header.css">
+    <link rel = "stylesheet" href="styles/main.css">
+</head>
+<body>
+    <ul class = "header">
+        <li class = "Home_page">
+            <a class = "Home_button" href = "https://www.amazon.com.br/?ref=aisgw_intl_stripe_br" target = "_blank"><img id = "amazon_logo_home" src="img/amazon_logo.png" alt = "Logo da amazon"></a>
+        </li>
+        
+        <li class = "zip_code"> <a class = "Home_button" href = "back_end_cep">
+            <img id = "menu_marker_zip"  src = "img/marker.png" alt = "marker de endereço">
+            <p class = "upper_text_zip">A entrega sera feita para Rio de Janeiro</p> 
+            <p class = "lower_text_zip">Atualizar CEP</p>
+        </a></li>
+
+        <li class = "search_zone">
+        <form>
+            <select name = "departments" id = "departments_list">
+                <option selected disabled = "">Todos</option>
+                <option value = "All departments">Todos os Departamentos</option>
+                <option value = "alexa_skills">Alexa Skills</option>
+                <option value = "food_drinks">Alimentos e Bebidas</option>
+                <option value = "amazon_almost_new">Amazon Quase Novo</option>
+                <option value = "app_games">Apps e Jogos</option>
+                <option value = "audio_books">Audiolivros Audible</option>
+                <option value = "auto">Automotivo</option>
+                <option value = "babies">Bebês</option>
+                <option value = "beauty">Beleza</option>
+                <option value = "beauty_lux">Beleza e Luxo</option>
+                <option value = "bags">Bolsa, Malas e Mochilas</option>
+                <option value = "toys_games">Brinquedos e Jogos</option>
+                <option value = "home">Casa</option>
+                <option value = "cd_vinil">CD e Vinil</option>
+                <option value = "computers">Computadores e Informática</option>
+                <option value = "kitchen">Cozinha</option>
+                <option value = "amazon_devices">Dispositivos Amazon</option>
+                <option value = "dvd_blueray">DVD e Blue-Ray</option>
+                <option value = "eletro">Eletrodomésticos</option>
+                <option value = "eletronics">Eletrônicos</option>
+                <option value = "sports_adventure">Esportes e Aventura</option>
+            </select>
+            <input id = "search_bar" type = "text" placeholder="Pesquisa Amazon.com.br"> 
+        </form>
+        </li>
+
+        <li class="search_command">
+            <a id ="search_button" href = "https://www.amazon.com.br/">
+                <img id = "lupa" src="img/search.png" alt = "search button">
+            </a>
+        </li>
+
+        <li class = "login_button">
+            <select id = "login_selection">
+                <option value = "login"> Olá, faça seu login <strong>Contas e Listas</strong> </option> 
+            </select>
+        </li>
+
+        <li class = "withdraw_requests">
+            <a id = "withdraw_requests_button" href ="https://www.amazon.com.br/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fyour-orders%2Forders%3F_encoding%3DUTF8%26ref_%3Dnav_orders_first&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_retail_yourorders_br&openid.mode=checkid_setup&language=pt_BR&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"> Devoluções <strong>e Pedidos</strong></a>
+        </li>
+
+        <li class = "cart">
+            <a id = "cart_button" href="https://www.amazon.com.br/gp/cart/view.html?ref_=nav_cart"><img id = "cart_img" src = "img/shopping-cart.png" alt = "cart button"> Carrinho</a>
+        </li>
+    </ul>
+</body>
+</html>
